@@ -1,0 +1,107 @@
+.scoretab {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scoretab_conatiner {
+    margin-top: 20px;
+    width: 800px;
+    height: 300px;
+    border: 2px solid #f0705a;
+    border-radius: 10px;
+}
+
+.scoretab_title {
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid #f0705a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.scoretab_title2 {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scoretab_mainsec {
+    width: 100%;
+    height: 180px;
+    border: 2px solid #f0705a;
+    border-top: none;
+
+
+}
+
+.scoretab_match1 {
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.scoretab_match2 {
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.scoretab_img1 {
+    display: flex;
+    width: 180px;
+    justify-content: space-around;
+}
+
+.scoretab_flag1 {
+    width: 50px;
+}
+
+.scoretab_status {
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.scoretab_footerlist {
+    color: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.scoretab_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scoretab_flashnews {
+    width: 320px;
+    height: 300px;
+    border: 2px solid #f0705a8d;
+    border-radius: 10px;
+    margin-top: 30px;
+}

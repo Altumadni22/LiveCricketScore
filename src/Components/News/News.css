@@ -1,0 +1,149 @@
+.news_container {
+    width: 100%;
+    border-top: 6px solid #f0705a;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news_main_card {
+    margin-top: 30px;
+    width: 950px;
+    height: 500px;
+    border: 2px solid #f0705a76;
+    border-radius: 5px;
+    background-color: #252529;
+}
+
+.news_title {
+    padding-left: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #f0705a76;
+}
+
+.news_list {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #f0705a76;
+}
+
+.news_items {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.news_main_sec {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    justify-content: space-around;
+
+}
+
+.news_sec {
+    margin: 20px 20px;
+    width: 450px;
+    height: 250px;
+    border: 2px solid #f0705a8a;
+    overflow: hidden;
+    border-radius: 15px;
+
+}
+
+.news_image1 {
+    width: 450px;
+}
+
+.news_details {
+    width: 450px;
+    height: 300px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.news_details_box {
+    width: 95%;
+    height: 40px;
+    padding: 20px 20px;
+    background-color: #333333aa;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.fa-trophy {
+    margin-right: 8px;
+}
+
+.news_details_para {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 14.3px;
+}
+
+.move {
+    padding-right: 10px;
+}
+
+.news_small {
+    width: 320px;
+    height: 300px;
+    border: 2px solid #f0705a8d;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.news_small_title {
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    border-bottom: 2px solid #f0705a8d;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.news_small_image {
+    margin: 20px 30px;
+    width: 250px;
+    overflow: hidden;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.news_small_img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.dots {
+    margin-top: 12px;
+    font-size: 10px;
+    margin-right: 5px;
+    margin-left: 30px;
+    color: gray;
+}
+
+.dots:hover {
+    cursor: pointer;
+    color: #f0705a;
+}

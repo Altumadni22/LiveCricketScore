@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { AppContext } from "../Context";
+import { AppContext } from "../../Context";
+import "../ScoreTabBowlingTable/ScoreTabBowlingTable.css";
 import axios from "axios";
 
 const ScoreTabBowlingTable = () => {

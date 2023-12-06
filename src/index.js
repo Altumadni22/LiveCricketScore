@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import LiveScoreDetails from "./Components/LiveScoreDetails";
+import LiveScoreDetails from "./Components/LiveScoreDetails/LiveScoreDetails";
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import { AppProvider } from "./Context";
 import ErrorBoundary from "./ErrorBoundary";

@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useState } from "react";
-import ScoreCards from "./ScoreCards/ScoreCards";
+import ScoreCards from "../ScoreCards/ScoreCards";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { AppContext } from "../Context";
-
+import { AppContext } from "../../Context";
+import "../ScoreCardList/ScoreCardList.css";
 
 const ScoreCardList = () => {
   const navigate = useNavigate();

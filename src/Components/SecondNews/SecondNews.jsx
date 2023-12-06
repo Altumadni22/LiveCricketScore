@@ -1,4 +1,5 @@
 import React from "react";
+import "../SecondNews/SecondNews.css";
 
 const SecondNews = () => {
   return (
