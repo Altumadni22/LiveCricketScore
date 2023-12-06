@@ -1,0 +1,125 @@
+.main_card {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card {
+    width: 280px;
+    height: 60vh;
+    border: 1px solid #f0705a;
+    border-radius: 10px;
+    background-color: #333333;
+
+}
+
+.main_img {
+    width: 100%;
+    height: 50%;
+
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card_title {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: #161617;
+}
+
+p {
+    font-size: smaller;
+}
+
+.fa-podcast {
+    padding-right: 4px;
+    color: red;
+}
+
+.card_flags {
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.scorecard_one {
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scorecard_two {
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_footer {
+    position: relative;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 28px;
+    background-color: #161617;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
