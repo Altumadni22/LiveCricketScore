@@ -14,7 +14,7 @@ const News = () => {
               <li>Eng vs Sri</li>
               <li>Ind vs Pak</li>
               <li>Around the world</li>
-              <li>Abu Dhabi T10</li>
+              <li>Abu Dhabi T20</li>
               <li>Legends League</li>
             </ul>
           </div>
